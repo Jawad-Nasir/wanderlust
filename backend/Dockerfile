@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm i
+RUN npm ci
 
 FROM node:21-slim 
 
